@@ -3,7 +3,8 @@ The loader loader.py can load the articles as required but please note that due 
 
 #### normalize function
 - normalize function is only put together with loader for now for simplicity. 
-
+- Each list inside the individual articles are flattened as 0.<attributeX>.<attributeY> to n.<attribute>.<attributeY> or  <attributeX>.0.<attributeY>
+- Function performance can be improved further.
 #### To run
 - use source-files/analysis/loader.py to run
 - please note that api key and query should be changed before running the loader.
